@@ -4,9 +4,9 @@ import (
 	"log"
 	"net"
 
-	"github.com/codeedu/codebank/infrastructure/grpc/pb"
-	"github.com/codeedu/codebank/infrastructure/grpc/service"
-	"github.com/codeedu/codebank/usecase"
+	"github.com/kazuya08/codebank/infrastructure/grpc/pb"
+	"github.com/kazuya08/codebank/infrastructure/grpc/service"
+	"github.com/kazuya08/codebank/usecase"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )
